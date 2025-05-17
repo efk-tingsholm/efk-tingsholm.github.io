@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 10% auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  a {
+    display: block;
+    margin: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+    color: teal;
+    transition: all 0.2s ease;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: darkcyan;
+  }
+
+  .subtitle {
+    font-style: italic;
+    color: #888;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+  }
+
+  /* E-postlänken i underrubriken */
+.email {
+    display: inline;
+    margin: 0px;
+    color: #888;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  
+  .email:hover {
+    text-decoration: underline;
+    color: #555;
+  }
+  
